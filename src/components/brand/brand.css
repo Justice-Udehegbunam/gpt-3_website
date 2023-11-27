@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.gpt3__brand a:hover {
+  opacity: 0.7;
+}
+
 .gpt3__brand img {
   flex: 1;
   max-width: 150px;

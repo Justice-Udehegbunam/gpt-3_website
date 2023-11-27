@@ -5,11 +5,21 @@ import { google, slack, atlassian, dropbox, shopify } from "./imports";
 const Brand = () => {
   return (
     <div className="gpt3__brand section__padding">
-      <img src={google} alt="google" />
-      <img src={slack} alt="slack" />
-      <img src={atlassian} alt="atlassian" />
-      <img src={dropbox} alt="dropbox" />
-      <img src={shopify} alt="shopify" />
+      <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+        <img src={google} alt="google" />
+      </a>
+      <a href="http://slack.com" target="_blank" rel="noopener noreferrer">
+        <img src={slack} alt="slack" />
+      </a>
+      <a href="http://atlassian.com" target="_blank" rel="noopener noreferrer">
+        <img src={atlassian} alt="atlassian" />
+      </a>
+      <a href="http://dropbox.com" target="_blank" rel="noopener noreferrer">
+        <img src={dropbox} alt="dropbox" />
+      </a>
+      <a href="http://shopify.com" target="_blank" rel="noopener noreferrer">
+        <img src={shopify} alt="shopify" />
+      </a>
     </div>
   );
 };
