@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# GPT-3 WEBSITE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created to learn more about react prop-drilling use-state and use-effect handling in todays modern project.
 
-## Available Scripts
+## Here is the wonderful Web App
 
-In the project directory, you can run:
+![Website Screenshot](../gpt-3/public/gpt3_website.png)
+
+### And the link to the live preview
+
+[Visit the Website: ](https://gpt-3-website-iota.vercel.app/)
 
 ### `npm start`
 
